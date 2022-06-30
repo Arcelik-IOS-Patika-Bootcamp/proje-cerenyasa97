@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zQw-yx-0DQ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SplashViewController" customModule="Charger" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g0z-6y-020">
+                                <rect key="frame" x="225" y="225" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="3Zd-xG-fJd"/>
+                                    <constraint firstAttribute="width" constant="150" id="DZO-CN-QCo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="CustomPurple"/>
+                        <constraints>
+                            <constraint firstItem="g0z-6y-020" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0mm-uo-F3v"/>
+                            <constraint firstItem="g0z-6y-020" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IP1-iT-hoz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bN3-xO-GnZ"/>
+                    <connections>
+                        <outlet property="lottieView" destination="g0z-6y-020" id="Jnr-3e-D7f"/>
+                        <segue destination="r0g-iH-D8g" kind="show" id="Jsa-uy-nTk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900.00000000000011" y="65.625"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="WU3-Tg-rGa">
+            <objects>
+                <viewController id="r0g-iH-D8g" customClass="LoginViewController" customModule="Charger" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fzz-Gz-YXn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HHG-Uo-cBX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3OT-Yn-jYJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rK0-3d-ixh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1743" y="66"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EuP-Wu-yJ9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zQw-yx-0DQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UKJ-yx-olL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Pay-yT-X8n"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t8G-Un-LcI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10.144927536231885" y="65.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="CustomPurple">
+            <color red="0.39215686274509803" green="0.21568627450980393" blue="0.45098039215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
