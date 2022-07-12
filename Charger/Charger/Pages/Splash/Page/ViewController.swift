@@ -11,29 +11,22 @@ import Lottie
 class SplashViewController: UIViewController {
     var viewModel: SplashViewModel?
     
-    @IBOutlet weak var lottieView: AnimationView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        lottieAnimation()
-        
+        navigateToLogin()
+        navigationController?.setStatusBar(backgroundColor: UIColor(red: 68/255, green: 73/255, blue: 84/255, alpha: 1))
         viewModel = SplashViewModel()
     }
     
-    func lottieAnimation(){
-        lottieView = AnimationView(name: "splash_animation")
-        lottieView.frame = CGRect(x: 0, y: 0, width: 150, height: 150)
-        lottieView.center = self.view.center
-        lottieView.contentMode = .scaleAspectFit
-        view.addSubview(lottieView)
+    func navigateToLogin(){
         viewModel?.requestNotificationPermission()
         viewModel?.requestLocationPermission()
-        lottieView.play { completed in
-            if(completed){
-                let loginViewController = LoginViewController()
-                self.navigationController?.pushViewController(loginViewController, animated: true)}
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+            [weak self] in
+            if let vc = self{
+                vc.viewModel?.navigateToLogin(context: vc)
+            }
         }
     }
 }
-

@@ -8,22 +8,32 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    @IBOutlet weak var emailField: UITextField!
+    
+    var viewModel: LoginViewModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        viewModel = LoginViewModel(ctx: self)
+        
+        navigationItem.hidesBackButton = true  
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func logIn(_ sender: Any) {
+        Task{
+            await login()
+        }
     }
-    */
-
+    
+    func login() async {
+        if let email = emailField.text, let vm = viewModel, let udid = UIDevice.current.identifierForVendor?.uuidString {
+            if(email.validateEmail()){
+                let result = await vm.logIn(email: email, udid: udid)
+                print(result)
+            }
+        } else {
+            print("Please enter email.")
+        }
+    }
 }

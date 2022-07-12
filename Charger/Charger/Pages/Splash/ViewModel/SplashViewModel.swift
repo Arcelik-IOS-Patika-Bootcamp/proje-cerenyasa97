@@ -12,9 +12,10 @@ import CoreLocation
 class SplashViewModelProtocol{
     func requestNotificationPermission(){}
     func requestLocationPermission(){}
+    func navigateToLogin(context: SplashViewController){}
 }
 
-class SplashViewModel: SplashViewModelProtocol{
+class SplashViewModel: SplashViewModelProtocol, BaseViewModel{
     var notificationPermission: Bool = false
     
     override func requestNotificationPermission(){
@@ -31,5 +32,9 @@ class SplashViewModel: SplashViewModelProtocol{
     override func requestLocationPermission(){
         let locationManager: CLLocationManager = CLLocationManager()
         locationManager.requestWhenInUseAuthorization()
+    }
+    
+    override func navigateToLogin(context: SplashViewController) {
+        AppRouter.shared.route(to: AppRoute.login.rawValue, from: context, parameters: nil)
     }
 }
