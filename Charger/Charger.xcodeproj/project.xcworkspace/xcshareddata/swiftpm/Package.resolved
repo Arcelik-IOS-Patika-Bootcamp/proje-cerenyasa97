@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "availablehapticfeedback",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yonat/AvailableHapticFeedback",
+      "state" : {
+        "revision" : "f9ae6d54af1fb06fff0ddb16246091c6de22f989",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alexruperez/lottie-ios.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "934954c378fbd49f3798931cd314740ff3176972"
+      }
+    },
+    {
+      "identity" : "multislider",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yonat/MultiSlider",
+      "state" : {
+        "revision" : "3258c65a660b5fda1b643a1869ad04e3c103bb76",
+        "version" : "1.12.2"
+      }
+    },
+    {
+      "identity" : "sweeterswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yonat/SweeterSwift",
+      "state" : {
+        "revision" : "74b3d19dc80158b2a87240d05894154a1ba7f2ef",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "ttgtagcollectionview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zekunyan/TTGTagCollectionView",
+      "state" : {
+        "revision" : "7539583a7cb7ad278945461ea26e985e759554b4",
+        "version" : "2.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
