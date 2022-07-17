@@ -22,10 +22,8 @@ extension NetworkManager {
         }
         
         var request = URLRequest(url: url)
-        print(request)
         request.httpMethod = endpoint.method.rawValue
         request.allHTTPHeaderFields = endpoint.header
-        print(request.allHTTPHeaderFields)
         
         if let body = endpoint.body {
             let encoder = JSONEncoder()
@@ -38,6 +36,7 @@ extension NetworkManager {
             guard let response = response as? HTTPURLResponse else {
                 return .success(responseModel as! T)
             }
+            print(response)
             switch response.statusCode {
             case 200...299:
                 guard let decodedResponse = try? JSONDecoder().decode(responseModel, from: data) else {

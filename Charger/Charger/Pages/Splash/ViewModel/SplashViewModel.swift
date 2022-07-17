@@ -18,6 +18,12 @@ class SplashViewModelProtocol{
 class SplashViewModel: SplashViewModelProtocol, BaseViewModel{
     var notificationPermission: Bool = false
     
+    override init() {
+        super.init()
+        requestLocationPermission()
+        requestNotificationPermission()
+    }
+    
     override func requestNotificationPermission(){
         let options: UNAuthorizationOptions = [.alert, .sound, .badge]
         

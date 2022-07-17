@@ -23,11 +23,31 @@
 		B48FD532287DBF32003AFE29 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD531287DBF32003AFE29 /* ProfileViewModel.swift */; };
 		B48FD534287DC02B003AFE29 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD533287DC02B003AFE29 /* ProfileService.swift */; };
 		B48FD537287DE544003AFE29 /* LogoutResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD536287DE544003AFE29 /* LogoutResponse.swift */; };
+		B48FD53B287E3058003AFE29 /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD53A287E3058003AFE29 /* Cities.swift */; };
+		B48FD53D287E9A19003AFE29 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD53C287E9A19003AFE29 /* CustomSearchBar.swift */; };
+		B48FD544287E9C26003AFE29 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD543287E9C26003AFE29 /* CitiesViewController.swift */; };
+		B48FD546287E9C93003AFE29 /* CitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD545287E9C93003AFE29 /* CitiesViewModel.swift */; };
+		B48FD548287E9CC2003AFE29 /* CitiesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD547287E9CC2003AFE29 /* CitiesService.swift */; };
+		B48FD54B287F38C8003AFE29 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD54A287F38C8003AFE29 /* LoadingViewController.swift */; };
+		B48FD54D287F40DD003AFE29 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD54C287F40DD003AFE29 /* Observable.swift */; };
+		B48FD554288032F4003AFE29 /* StationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD553288032F4003AFE29 /* StationsViewController.swift */; };
+		B48FD55628803DBE003AFE29 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD55528803DBE003AFE29 /* StationTableViewCell.swift */; };
+		B48FD55828804878003AFE29 /* StationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD55728804877003AFE29 /* StationsViewModel.swift */; };
+		B48FD55A28804882003AFE29 /* Stations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD55928804882003AFE29 /* Stations.swift */; };
+		B48FD55C2880488F003AFE29 /* StationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD55B2880488F003AFE29 /* StationsService.swift */; };
+		B48FD55E28804CCD003AFE29 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FD55D28804CCD003AFE29 /* AppConstants.swift */; };
 		B4AF8FD1287DA1DD003D9553 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF8FD0287DA1DD003D9553 /* Router.swift */; };
 		B4AF8FD4287DA235003D9553 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF8FD3287DA235003D9553 /* BaseViewModel.swift */; };
 		B4AF8FDB287DA8DB003D9553 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF8FDA287DA8DB003D9553 /* AppointmentsViewController.swift */; };
 		B4AF8FDD287DB592003D9553 /* AppointmentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF8FDC287DB592003D9553 /* AppointmentsViewModel.swift */; };
 		B4AF8FE1287DB62D003D9553 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF8FE0287DB62D003D9553 /* ProfileViewController.swift */; };
+		B4B3A08C2881667700C81976 /* TTGTags in Frameworks */ = {isa = PBXBuildFile; productRef = B4B3A08B2881667700C81976 /* TTGTags */; };
+		B4B3A08F28818C4F00C81976 /* MultiSlider in Frameworks */ = {isa = PBXBuildFile; productRef = B4B3A08E28818C4F00C81976 /* MultiSlider */; };
+		B4B3A09128828B5A00C81976 /* CustomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3A09028828B5A00C81976 /* CustomCollectionView.swift */; };
+		B4B3A09528828C4E00C81976 /* DateTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3A09428828C4E00C81976 /* DateTimeViewController.swift */; };
+		B4B3A09A28828EDE00C81976 /* DateTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3A09928828EDE00C81976 /* DateTimeViewModel.swift */; };
+		B4B3A09C2882B3BE00C81976 /* DateTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3A09B2882B3BE00C81976 /* DateTimeService.swift */; };
+		B4B3A09E2882B4BE00C81976 /* OccupiedTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3A09D2882B4BE00C81976 /* OccupiedTimes.swift */; };
 		B4D72827287C9A08004A2DED /* CustomStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D72826287C9A08004A2DED /* CustomStatusBar.swift */; };
 		B4D72829287CA3BE004A2DED /* RoundCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D72828287CA3BE004A2DED /* RoundCornerButton.swift */; };
 		B4D7282B287CC440004A2DED /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7282A287CC440004A2DED /* AuthManager.swift */; };
@@ -83,11 +103,29 @@
 		B48FD531287DBF32003AFE29 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		B48FD533287DC02B003AFE29 /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
 		B48FD536287DE544003AFE29 /* LogoutResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutResponse.swift; sourceTree = "<group>"; };
+		B48FD53A287E3058003AFE29 /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		B48FD53C287E9A19003AFE29 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		B48FD543287E9C26003AFE29 /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		B48FD545287E9C93003AFE29 /* CitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewModel.swift; sourceTree = "<group>"; };
+		B48FD547287E9CC2003AFE29 /* CitiesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesService.swift; sourceTree = "<group>"; };
+		B48FD54A287F38C8003AFE29 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		B48FD54C287F40DD003AFE29 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		B48FD553288032F4003AFE29 /* StationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsViewController.swift; sourceTree = "<group>"; };
+		B48FD55528803DBE003AFE29 /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		B48FD55728804877003AFE29 /* StationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsViewModel.swift; sourceTree = "<group>"; };
+		B48FD55928804882003AFE29 /* Stations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stations.swift; sourceTree = "<group>"; };
+		B48FD55B2880488F003AFE29 /* StationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsService.swift; sourceTree = "<group>"; };
+		B48FD55D28804CCD003AFE29 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppConstants.swift; path = Charger/Pages/Stations/Service/AppConstants.swift; sourceTree = SOURCE_ROOT; };
 		B4AF8FD0287DA1DD003D9553 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		B4AF8FD3287DA235003D9553 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		B4AF8FDA287DA8DB003D9553 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
 		B4AF8FDC287DB592003D9553 /* AppointmentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewModel.swift; sourceTree = "<group>"; };
 		B4AF8FE0287DB62D003D9553 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B4B3A09028828B5A00C81976 /* CustomCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionView.swift; sourceTree = "<group>"; };
+		B4B3A09428828C4E00C81976 /* DateTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeViewController.swift; sourceTree = "<group>"; };
+		B4B3A09928828EDE00C81976 /* DateTimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeViewModel.swift; sourceTree = "<group>"; };
+		B4B3A09B2882B3BE00C81976 /* DateTimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeService.swift; sourceTree = "<group>"; };
+		B4B3A09D2882B4BE00C81976 /* OccupiedTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccupiedTimes.swift; sourceTree = "<group>"; };
 		B4D72826287C9A08004A2DED /* CustomStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStatusBar.swift; sourceTree = "<group>"; };
 		B4D72828287CA3BE004A2DED /* RoundCornerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornerButton.swift; sourceTree = "<group>"; };
 		B4D7282A287CC440004A2DED /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
@@ -111,6 +149,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B3A08C2881667700C81976 /* TTGTags in Frameworks */,
+				B4B3A08F28818C4F00C81976 /* MultiSlider in Frameworks */,
 				B42BBBF2286A4AD60016AF0C /* CoreLocation.framework in Frameworks */,
 				B42BBBD5286A36A80016AF0C /* Lottie in Frameworks */,
 			);
@@ -197,6 +237,10 @@
 		B42BBBDD286A3BEE0016AF0C /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				B4B3A09228828C2D00C81976 /* DateTime */,
+				B48FD54E288032CD003AFE29 /* Stations */,
+				B48FD549287F38B5003AFE29 /* Loading */,
+				B48FD53E287E9BFC003AFE29 /* Citites */,
 				B4AF8FDE287DB618003D9553 /* Profile */,
 				B4AF8FD5287DA8A4003D9553 /* Appointments */,
 				B42BBBE8286A3F3E0016AF0C /* Login */,
@@ -289,6 +333,101 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B48FD53E287E9BFC003AFE29 /* Citites */ = {
+			isa = PBXGroup;
+			children = (
+				B48FD542287E9C18003AFE29 /* Model */,
+				B48FD541287E9C13003AFE29 /* Service */,
+				B48FD540287E9C0E003AFE29 /* ViewModel */,
+				B48FD53F287E9C09003AFE29 /* Page */,
+			);
+			path = Citites;
+			sourceTree = "<group>";
+		};
+		B48FD53F287E9C09003AFE29 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				B48FD543287E9C26003AFE29 /* CitiesViewController.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		B48FD540287E9C0E003AFE29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B48FD545287E9C93003AFE29 /* CitiesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B48FD541287E9C13003AFE29 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B48FD547287E9CC2003AFE29 /* CitiesService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B48FD542287E9C18003AFE29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B48FD53A287E3058003AFE29 /* Cities.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B48FD549287F38B5003AFE29 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				B48FD54A287F38C8003AFE29 /* LoadingViewController.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		B48FD54E288032CD003AFE29 /* Stations */ = {
+			isa = PBXGroup;
+			children = (
+				B48FD552288032E4003AFE29 /* Page */,
+				B48FD551288032E0003AFE29 /* Model */,
+				B48FD550288032DB003AFE29 /* ViewModel */,
+				B48FD54F288032D6003AFE29 /* Service */,
+			);
+			path = Stations;
+			sourceTree = "<group>";
+		};
+		B48FD54F288032D6003AFE29 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B48FD55B2880488F003AFE29 /* StationsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B48FD550288032DB003AFE29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B48FD55728804877003AFE29 /* StationsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B48FD551288032E0003AFE29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B48FD55928804882003AFE29 /* Stations.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B48FD552288032E4003AFE29 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				B48FD553288032F4003AFE29 /* StationsViewController.swift */,
+				B48FD55528803DBE003AFE29 /* StationTableViewCell.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
 		B4AF8FD2287DA22A003D9553 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,24 +441,8 @@
 			children = (
 				B4AF8FD9287DA8C2003D9553 /* ViewModel */,
 				B4AF8FD8287DA8BF003D9553 /* Page */,
-				B4AF8FD7287DA8B9003D9553 /* Model */,
-				B4AF8FD6287DA8B5003D9553 /* Service */,
 			);
 			path = Appointments;
-			sourceTree = "<group>";
-		};
-		B4AF8FD6287DA8B5003D9553 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		B4AF8FD7287DA8B9003D9553 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		B4AF8FD8287DA8BF003D9553 /* Page */ = {
@@ -357,6 +480,49 @@
 			path = Page;
 			sourceTree = "<group>";
 		};
+		B4B3A09228828C2D00C81976 /* DateTime */ = {
+			isa = PBXGroup;
+			children = (
+				B4B3A09828828C5E00C81976 /* Model */,
+				B4B3A09728828C5A00C81976 /* Service */,
+				B4B3A09628828C5200C81976 /* ViewModel */,
+				B4B3A09328828C3400C81976 /* Page */,
+			);
+			path = DateTime;
+			sourceTree = "<group>";
+		};
+		B4B3A09328828C3400C81976 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				B4B3A09428828C4E00C81976 /* DateTimeViewController.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		B4B3A09628828C5200C81976 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4B3A09928828EDE00C81976 /* DateTimeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B4B3A09728828C5A00C81976 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B4B3A09B2882B3BE00C81976 /* DateTimeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B4B3A09828828C5E00C81976 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4B3A09D2882B4BE00C81976 /* OccupiedTimes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B4D91F3D2870B2410037D063 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +537,7 @@
 			children = (
 				B4D7282A287CC440004A2DED /* AuthManager.swift */,
 				B4AF8FD0287DA1DD003D9553 /* Router.swift */,
+				B48FD54C287F40DD003AFE29 /* Observable.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -436,6 +603,7 @@
 		B4DB6F0A286E4655009F0DEA /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				B48FD55D28804CCD003AFE29 /* AppConstants.swift */,
 			);
 			name = Constants;
 			path = ../Constants;
@@ -448,6 +616,8 @@
 				B4F85DDB28721B95009B44F0 /* CustomTextField.swift */,
 				B4F85DDD28722396009B44F0 /* GradientView.swift */,
 				B4D72828287CA3BE004A2DED /* RoundCornerButton.swift */,
+				B48FD53C287E9A19003AFE29 /* CustomSearchBar.swift */,
+				B4B3A09028828B5A00C81976 /* CustomCollectionView.swift */,
 			);
 			path = CustomComponents;
 			sourceTree = "<group>";
@@ -478,6 +648,8 @@
 			name = Charger;
 			packageProductDependencies = (
 				B42BBBD4286A36A80016AF0C /* Lottie */,
+				B4B3A08B2881667700C81976 /* TTGTags */,
+				B4B3A08E28818C4F00C81976 /* MultiSlider */,
 			);
 			productName = Charger;
 			productReference = B42BBBA0286A2D5E0016AF0C /* Charger.app */;
@@ -553,6 +725,8 @@
 			mainGroup = B42BBB97286A2D5E0016AF0C;
 			packageReferences = (
 				B42BBBD3286A36A80016AF0C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				B4B3A08A2881667700C81976 /* XCRemoteSwiftPackageReference "TTGTagCollectionView" */,
+				B4B3A08D28818C4F00C81976 /* XCRemoteSwiftPackageReference "MultiSlider" */,
 			);
 			productRefGroup = B42BBBA1286A2D5E0016AF0C /* Products */;
 			projectDirPath = "";
@@ -597,27 +771,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48FD544287E9C26003AFE29 /* CitiesViewController.swift in Sources */,
 				B4AF8FD1287DA1DD003D9553 /* Router.swift in Sources */,
 				B48F7ACD287247B30038374C /* NetworkManager.swift in Sources */,
+				B4B3A09128828B5A00C81976 /* CustomCollectionView.swift in Sources */,
 				B4D7282B287CC440004A2DED /* AuthManager.swift in Sources */,
+				B48FD554288032F4003AFE29 /* StationsViewController.swift in Sources */,
+				B48FD54D287F40DD003AFE29 /* Observable.swift in Sources */,
+				B4B3A09A28828EDE00C81976 /* DateTimeViewModel.swift in Sources */,
+				B48FD55A28804882003AFE29 /* Stations.swift in Sources */,
 				B48FD532287DBF32003AFE29 /* ProfileViewModel.swift in Sources */,
 				B4DB6F0E286E468C009F0DEA /* Endpoint.swift in Sources */,
 				B4DB6EFB286E3CBC009F0DEA /* SplashViewModel.swift in Sources */,
+				B48FD54B287F38C8003AFE29 /* LoadingViewController.swift in Sources */,
 				B4D91F4C2870F4730037D063 /* LoginRequest.swift in Sources */,
 				B4F85DDC28721B95009B44F0 /* CustomTextField.swift in Sources */,
 				B4F85DE428722B5E009B44F0 /* UIButtonExtension.swift in Sources */,
+				B4B3A09528828C4E00C81976 /* DateTimeViewController.swift in Sources */,
 				B42BBBEF286A46B00016AF0C /* LoginViewController.swift in Sources */,
+				B48FD55628803DBE003AFE29 /* StationTableViewCell.swift in Sources */,
 				B4F85DDE28722396009B44F0 /* GradientView.swift in Sources */,
 				B4AF8FE1287DB62D003D9553 /* ProfileViewController.swift in Sources */,
 				B42BBBA8286A2D5E0016AF0C /* ViewController.swift in Sources */,
 				B48FD537287DE544003AFE29 /* LogoutResponse.swift in Sources */,
 				B48FD534287DC02B003AFE29 /* ProfileService.swift in Sources */,
+				B4B3A09E2882B4BE00C81976 /* OccupiedTimes.swift in Sources */,
+				B48FD546287E9C93003AFE29 /* CitiesViewModel.swift in Sources */,
 				B42BBBA4286A2D5E0016AF0C /* AppDelegate.swift in Sources */,
 				B4D72827287C9A08004A2DED /* CustomStatusBar.swift in Sources */,
 				B4D91F442870EFEE0037D063 /* LoginViewModel.swift in Sources */,
+				B48FD55E28804CCD003AFE29 /* AppConstants.swift in Sources */,
 				B4AF8FD4287DA235003D9553 /* BaseViewModel.swift in Sources */,
+				B4B3A09C2882B3BE00C81976 /* DateTimeService.swift in Sources */,
 				B42BBBA6286A2D5E0016AF0C /* SceneDelegate.swift in Sources */,
 				B4AF8FDB287DA8DB003D9553 /* AppointmentsViewController.swift in Sources */,
+				B48FD55828804878003AFE29 /* StationsViewModel.swift in Sources */,
+				B48FD53D287E9A19003AFE29 /* CustomSearchBar.swift in Sources */,
+				B48FD53B287E3058003AFE29 /* Cities.swift in Sources */,
 				B4DB6F05286E44EA009F0DEA /* NetworkErrorHandling.swift in Sources */,
 				B4F85DE928723F51009B44F0 /* LoginService.swift in Sources */,
 				B4D91F472870F09F0037D063 /* ChargerEndpoints.swift in Sources */,
@@ -626,6 +816,8 @@
 				B4DB6F02286E449F009F0DEA /* RequestMethods.swift in Sources */,
 				B4D91F4E2870F4880037D063 /* LoginResponse.swift in Sources */,
 				B4D72829287CA3BE004A2DED /* RoundCornerButton.swift in Sources */,
+				B48FD548287E9CC2003AFE29 /* CitiesService.swift in Sources */,
+				B48FD55C2880488F003AFE29 /* StationsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -981,6 +1173,22 @@
 				kind = branch;
 			};
 		};
+		B4B3A08A2881667700C81976 /* XCRemoteSwiftPackageReference "TTGTagCollectionView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zekunyan/TTGTagCollectionView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		B4B3A08D28818C4F00C81976 /* XCRemoteSwiftPackageReference "MultiSlider" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yonat/MultiSlider";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -988,6 +1196,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B42BBBD3286A36A80016AF0C /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		B4B3A08B2881667700C81976 /* TTGTags */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4B3A08A2881667700C81976 /* XCRemoteSwiftPackageReference "TTGTagCollectionView" */;
+			productName = TTGTags;
+		};
+		B4B3A08E28818C4F00C81976 /* MultiSlider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4B3A08D28818C4F00C81976 /* XCRemoteSwiftPackageReference "MultiSlider" */;
+			productName = MultiSlider;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

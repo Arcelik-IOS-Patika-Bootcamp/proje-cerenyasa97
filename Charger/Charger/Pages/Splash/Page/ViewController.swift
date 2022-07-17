@@ -20,8 +20,6 @@ class SplashViewController: UIViewController {
     }
     
     func navigateToLogin(){
-        viewModel?.requestNotificationPermission()
-        viewModel?.requestLocationPermission()
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
             [weak self] in
             if let vc = self{

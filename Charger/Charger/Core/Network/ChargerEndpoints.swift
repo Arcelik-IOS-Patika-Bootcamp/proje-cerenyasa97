@@ -9,9 +9,10 @@ import Foundation
 
 enum ChargerEndpoint{
     case login(requestBody: LoginRequest),
-         logout(userID: Int),
-    cities,
-    stations,
+         logout,
+         cities,
+         stations(lat: Double, long: Double),
+         stationsOccupied(socketID: Int, date: String),
     getAppointments,
     appointments,
     cancelAppointments
@@ -35,12 +36,30 @@ extension ChargerEndpoint: Endpoint{
         switch self{
         case .login:
             return "auth/login"
-        case .logout(let id):
-            return "auth/logout/\(id)";
+        case .logout:
+            if let userID = AuthManager.shared.userInfo?.userID {
+                return "auth/logout/\(userID)";
+            } else {
+                return ""
+            }
         case .cities:
-            return "provinces";
-        case .stations:
-            return "stations/";
+            if let userID = AuthManager.shared.userInfo?.userID {
+                return "provinces?userID=\(userID)";
+            } else{
+                return ""
+            }
+        case .stations(let lat, let long):
+            if let userID = AuthManager.shared.userInfo?.userID {
+                return "stations?userID=\(userID)&userLatitude=\(lat)&userLongitude=\(long)"
+            } else {
+                return ""
+            }
+        case .stationsOccupied(let socketID, let date):
+            if let userID = AuthManager.shared.userInfo?.userID{
+                return "stations/\(socketID)?userID=\(userID)&date=\(date)"
+            } else {
+                return ""
+            }
         case .getAppointments:
             return "appointments/make";
         case .appointments:
@@ -48,7 +67,7 @@ extension ChargerEndpoint: Endpoint{
         case .cancelAppointments:
             return "appointments/cancel/"
         }
-        }
+    }
     
     var method: RequestMethods {
         switch self {
@@ -56,7 +75,7 @@ extension ChargerEndpoint: Endpoint{
             return RequestMethods.post
         case .cancelAppointments:
             return RequestMethods.delete
-        case .cities, .stations, .appointments:
+        case .cities, .stations, .stationsOccupied, .appointments:
             return RequestMethods.get
         }
     }
